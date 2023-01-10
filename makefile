@@ -1,5 +1,5 @@
 LDLIBS += -lpcap
-all: pcap-test
-pcap-test: pcap-test.c
+all: airodump
+airodump: airodump.c
 clean:
-	rm -f pcap-test *.o
+	rm -f airodump *.o
