@@ -7,8 +7,8 @@
 #define PACKET_LENGTH 512
 
 void usage() {
-	printf("syntax: pcap-test <interface>\n");
-	printf("sample: pcap-test wlan0\n");
+	printf("syntax: airodump <interface>\n");
+	printf("sample: airodump wlan0\n");
 }
 
 typedef struct {
